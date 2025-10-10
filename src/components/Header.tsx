@@ -53,14 +53,10 @@ const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
               
               {/* Logo container */}
               <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl px-1 py-0 sm:px-2 sm:py-0 border border-teal-400/50 transition-all duration-300 shadow-lg">
-                <img 
-                  src="/Diseño%20sin%20título%20(19)%20copy.png" 
+                <img
+                  src="/Diseño sin título (19) copy copy.png"
                   alt="WasabiTel Logo"
                   className="w-16 h-16 sm:w-24 sm:h-24 object-contain transition-all duration-300 brightness-110 relative z-10"
-                  onError={(e) => {
-                    console.error('Error loading logo:', e);
-                    e.currentTarget.src = '/vite.svg'; // Fallback
-                  }}
                 />
               </div>
             </div>
