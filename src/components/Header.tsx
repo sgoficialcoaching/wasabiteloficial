@@ -52,11 +52,11 @@ const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
               <div className="absolute -inset-1 bg-gradient-to-br from-teal-300/5 to-orange-300/5 rounded-xl blur-md opacity-60" style={{animation: 'float 4s ease-in-out infinite'}}></div>
               
               {/* Logo container */}
-              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl px-2 py-1 sm:px-3 sm:py-2 border border-teal-400/50 transition-all duration-300 shadow-lg">
+              <div className="relative">
                 <img
                   src="/wasabitel-logo-final.png"
                   alt="WasabiTel Logo"
-                  className="h-12 sm:h-16 w-auto object-contain transition-all duration-300 brightness-110 relative z-10"
+                  className="h-16 sm:h-20 w-auto object-contain transition-all duration-300 relative z-10"
                 />
               </div>
             </div>

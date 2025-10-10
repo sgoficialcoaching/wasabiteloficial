@@ -94,7 +94,7 @@ const Footer: React.FC<FooterProps> = ({ onCallRequestClick }) => {
                 <img
                   src="/wasabitel-logo-final.png"
                   alt="WasabiTel Logo"
-                  className="h-20 w-auto object-contain float-animation hover:scale-110 transition-transform duration-500"
+                  className="h-24 w-auto object-contain float-animation hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <p className="text-gray-300 text-xl leading-relaxed mb-8 hover:text-gray-200 transition-colors duration-300">
