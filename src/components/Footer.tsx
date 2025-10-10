@@ -90,11 +90,11 @@ const Footer: React.FC<FooterProps> = ({ onCallRequestClick }) => {
         <div className="py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 slide-up">
             <div className="bounce-in">
-              <div className="flex items-center space-x-3 mb-6">
+              <div className="flex items-center mb-6">
                 <img
-                  src="/Diseño sin título (20).png"
+                  src="/wasabitel-logo-official.png"
                   alt="WasabiTel Logo"
-                  className="w-24 h-24 object-contain float-animation hover:scale-110 transition-transform duration-500"
+                  className="h-16 w-auto object-contain float-animation hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <p className="text-gray-300 text-xl leading-relaxed mb-8 hover:text-gray-200 transition-colors duration-300">
