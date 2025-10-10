@@ -90,25 +90,12 @@ const Footer: React.FC<FooterProps> = ({ onCallRequestClick }) => {
         <div className="py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 slide-up">
             <div className="bounce-in">
-              <div className="flex items-center space-x-3 mb-6">
-                <svg className="h-12 w-auto float-animation hover:scale-110 transition-transform duration-500" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <filter id="neonGlowFooterLogo" x="-50%" y="-50%" width="200%" height="200%">
-                      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
-                      <feMerge>
-                        <feMergeNode in="blur"/>
-                        <feMergeNode in="blur"/>
-                        <feMergeNode in="SourceGraphic"/>
-                      </feMerge>
-                    </filter>
-                  </defs>
-                  <path d="M15 15 L30 65 L40 30 L50 65 L65 15" stroke="#14b8a6" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowFooterLogo)"/>
-                  <path d="M35 15 L50 65 L60 30 L70 65 L85 15" stroke="#f97316" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowFooterLogo)"/>
-                  <path d="M60 15 L75 65 L85 30 L95 65 L110 15" stroke="#14b8a6" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowFooterLogo)"/>
-                </svg>
-                <div className="text-3xl font-bold">
-                  <span className="text-teal-400">Wasabi</span><span className="text-orange-400">Tel</span>
-                </div>
+              <div className="flex items-center mb-6">
+                <img
+                  src="/wasabitel-logo-final.png"
+                  alt="WasabiTel Logo"
+                  className="h-20 w-auto object-contain float-animation hover:scale-110 transition-transform duration-500"
+                />
               </div>
               <p className="text-gray-300 text-xl leading-relaxed mb-8 hover:text-gray-200 transition-colors duration-300">
                 Más de 15 años conectando España con la mejor tecnología en telecomunicaciones. 

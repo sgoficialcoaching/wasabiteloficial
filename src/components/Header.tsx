@@ -52,27 +52,12 @@ const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
               <div className="absolute -inset-1 bg-gradient-to-br from-teal-300/5 to-orange-300/5 rounded-xl blur-md opacity-60" style={{animation: 'float 4s ease-in-out infinite'}}></div>
               
               {/* Logo container */}
-              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl px-3 py-2 sm:px-4 sm:py-3 border border-teal-400/50 transition-all duration-300 shadow-lg">
-                <div className="flex items-center space-x-2">
-                  <svg className="h-10 sm:h-12 w-auto relative z-10" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <filter id="neonGlowHeader" x="-50%" y="-50%" width="200%" height="200%">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
-                        <feMerge>
-                          <feMergeNode in="blur"/>
-                          <feMergeNode in="blur"/>
-                          <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                      </filter>
-                    </defs>
-                    <path d="M15 15 L30 65 L40 30 L50 65 L65 15" stroke="#14b8a6" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowHeader)"/>
-                    <path d="M35 15 L50 65 L60 30 L70 65 L85 15" stroke="#f97316" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowHeader)"/>
-                    <path d="M60 15 L75 65 L85 30 L95 65 L110 15" stroke="#14b8a6" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" filter="url(#neonGlowHeader)"/>
-                  </svg>
-                  <div className="text-xl sm:text-2xl font-bold whitespace-nowrap">
-                    <span className="text-teal-400">Wasabi</span><span className="text-orange-400">Tel</span>
-                  </div>
-                </div>
+              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl px-2 py-1 sm:px-3 sm:py-2 border border-teal-400/50 transition-all duration-300 shadow-lg">
+                <img
+                  src="/wasabitel-logo-final.png"
+                  alt="WasabiTel Logo"
+                  className="h-12 sm:h-16 w-auto object-contain transition-all duration-300 brightness-110 relative z-10"
+                />
               </div>
             </div>
           </div>
